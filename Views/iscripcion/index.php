@@ -9,32 +9,7 @@
 <article>
 
     <header>
-        <table border="0"  width="1000px"  align="center">
 
-
-            <tr>
-                <td  width="300" rowspan="2">
-                    <div align="left"><img src= width="230" height="115"></div>
-                </td>
-                <td   width="400" rowspan="2"><div>
-                        <h2  align="center">CONOSIMIENTOS CIENTIFICOS INOVADORES</h2>
-                        <h2  align="center">EXPERIENCIA CLINICA</h2>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td   width="400" >
-                    <table border="1"  width="300px"  align="center">
-                        <tbody>
-                        <div><h5  align="center"> HOSPITAL METROPOLITANO</h5></div>
-                        </tbody>
-                    </table>
-
-                </td>
-
-            </tr>
-        </table>
         <br>
 
         <h2  align="center">| FORMULARIO DE INSCRIPCION |</h2>
@@ -46,38 +21,66 @@
             <div align ="rigth">
 
 
-                <div class="row">
+                <div  class="row">
                     <form class="col s12">
                         <div class="row">
-                            <div class="input-field col s6">
-                                <label for="first_name">Primer Apellido</label>
-                                <input  id="first_name" type="text" class="validate">
+                            <div align="center" class="input-field col s6">
 
-                            </div>
-                            <div class="input-field col s6">
-                                <label for="last_name">Segundo Apellido</label>
-                                <input id="last_name" type="text" class="validate">
+                                <div class="input-field col s6">
+                                    <label for="first_name">Primer Apellido</label>
+                                    <input  id="first_name" type="text" class="validate">
 
-                            </div>
+                                </div>
+                                <div class="input-field col s6">
+                                    <label for="last_name">Telefono de Contacto</label>
+                                    <input id="last_name" type="text" class="validate">
 
-                            <div class="input-field col s6">
-                                <label for="first_name">Nombre</label>
-                                <input  id="first_name" type="text" class="validate">
+                                </div>
 
-                            </div>
-                            <div class="input-field col s6">
-                                <label for="last_name">Numero de Cedula</label>
-                                <input id="last_name" type="text" class="validate">
-                            </div>
+                                <div class="input-field col s6">
+                                    <label for="first_name">Segundo apellido</label>
+                                    <input  id="first_name" type="text" class="validate">
 
-                            <div class="input-field col s6">
-                                <label for="first_name">Direccion</label>
-                                <input id="first_name" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s6">
+                                    <label for="last_name">Email</label>
+                                    <input id="last_name" type="text" class="validate">
+                                </div>
 
-                            </div>
-                            <div class="input-field col s6">
-                                <label for="last_name">Ciudad</label>
-                                <input id="last_name" type="text" class="validate">
+                                <div class="input-field col s6">
+                                    <label for="first_name">Nombre</label>
+                                    <input id="first_name" type="text" class="validate">
+                                </div>
+
+                                <div class="input-field col s6">
+                                    <label for="last_name">Especialidad</label>
+                                    <input id="last_name" type="text" class="validate">
+                                </div>
+
+                                <div class="input-field col s6">
+                                    <label for="last_name">No Cedula</label>
+                                    <input id="last_name" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s6">
+                                    <label for="last_name">Año de Titulacion</label>
+                                    <input id="last_name" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s6">
+                                    <label for="last_name">Direccion</label>
+                                    <input id="last_name" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s6">
+                                    <label for="last_name">Codigo Minsal</label>
+                                    <input id="last_name" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s6">
+                                    <label for="last_name">Ciudad</label>
+                                    <input id="last_name" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s6">
+                                    <label for="last_name">Año de Estudios</label>
+                                    <input id="last_name" type="text" class="validate">
+                                </div>
                             </div>
                         </div>
 
@@ -98,6 +101,7 @@
                         </p>
                         <p>
 
+
                         <p>
                             <label>
                                 <input type="checkbox" />
@@ -105,8 +109,7 @@
                             </label>
                         </p>
                         <p>
-                </div>
-        </form>
+                    </form>
     </main>
 
 </article>

@@ -38,7 +38,7 @@ class Template
 
 
                     <li><a href="<?php echo URL?>inscripcion">inscripcion</a></li>
-                    <li><a href="<?php echo URL?>precongreso">precongreso</a></li>
+                    <li><a href="<?php echo URL?>precongreso">pre-congreso</a></li>
                     <li><a href="<?php echo URL?>congreso_m">congreso </a></li>
             </div>
         </nav>
