@@ -47,7 +47,6 @@ class Template
     }
     public static function footer()
     {
-     
         ?>
         </main>
         <aside id="cont_modal"></aside>
@@ -70,7 +69,7 @@ class Template
                     <div class="container">
                         <div class="row">
                            <div class="col offset-l1">
-                                © 2018 Copyright Text
+
                             </div>
                         </div>
                     </div>
