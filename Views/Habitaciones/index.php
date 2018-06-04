@@ -11,9 +11,7 @@
                             <input id="numero_habitacion" type="text" class="validate" name="numero_habitacion">
                             <label for="numero_habitacion"  data-error="Incorrecto" data-success="Correcto" >Número de Hábitación</label>
                         </div>
-
                         <div class="input-field col s1">
-
                         </div>
                         <div class="input-field col s5">
                             <input id="descripcion" type="text" class="validate" name="descripcion">
@@ -68,7 +66,6 @@
         </div>
     </div>
 </div>
-
 <div class="card-panel">
     <h4 align="center">Habitaciones Registradas <span class="right"><a href="#modal_registro" class="btn green white-text modal-trigger" id="add_habitacion">
                 <i class="material-icons">add</i>
@@ -107,8 +104,6 @@
         </tbody>
     </table>
 </div>
-
-
 <div id="modal_eliminar" class="modal">
     <div class="modal-content">
         <h5>¿Desea Eliminar el Registro?</h5>
@@ -149,8 +144,6 @@
         </div>
     </div>
 </div>
-
-
 <div id="modal_tipo_habitacion" class="modal center-align ">
     <div class="modal-content">
         <div class="card-panel teal #00b8d4"><h4 class="left"><a class=" text-black"></a></h4><h4 align="center">Tipo Habitación</h4></div>
@@ -188,7 +181,6 @@
         </div>
     </div>
 </div>
-
 <script type="text/javascript">
     $(document).ready(function(){
         $('select').material_select();

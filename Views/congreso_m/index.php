@@ -1,3 +1,11 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Lenovo
+ * Date: 17/05/2018
+ * Time: 06:00 PM
+ */
+?>
 <div id="modal_registro" class="modal">
     <div class="modal-content">
         <div class="card-panel">
