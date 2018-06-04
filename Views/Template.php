@@ -34,14 +34,11 @@ class Template
         <nav>
             <div class="nav-wrapper black" >
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="<?php echo URL?>inscripcion">inscripcion</a></li>
-<<<<<<< HEAD
-                    <li><a href="<?php echo URL?>precongreso">pre-congreso</a></li>
-                    <li><a href="<?php echo URL?>congreso_m">congreso </a></li>
-=======
-                    <li><a href="<?php echo URL?>precongreso">precongreso</a></li>
-                    <li><a href="<?php echo URL?>habitaciones">congreso </a></li>
->>>>>>> 08ab7342183011b6ccfd68623f6f623d1c7da4a3
+                    <li><a href="<?php echo URL?>inscripcion">Inscripcion</a></li>
+                    <li><a href="<?php echo URL?>precongreso">Pre-congreso</a></li>
+                    <li><a href="<?php echo URL?>congreso_m">Congreso Medico</a></li>
+                </ul>
+
             </div>
         </nav>
         <main class="container">
@@ -60,6 +57,9 @@ class Template
                                 <div class="row">
                                     <div class="col l8 center">
                                         <ul id="nav-mobile" class="right hide-on-med-and-down black">
+                                            <li><a href="<?php echo URL?>">Informacion |</a></li>
+                                            <li><a href="<?php echo URL?>habitaciones">PBX: 2255-6900 |</a></li>
+                                            <li><a href="<?php echo URL?>estado_habitaciones">www.metropolitano.com.ni |</a></li>
                                         </ul>
                                     </div>
                                 </div>
