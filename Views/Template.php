@@ -33,13 +33,15 @@ class Template
         <body>
         <nav>
             <div class="nav-wrapper black" >
-                <img class="responsive-img" src="<?php echo URL?>/public/img/bluebox.png" width="10%">
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-
-
                     <li><a href="<?php echo URL?>inscripcion">inscripcion</a></li>
+<<<<<<< HEAD
                     <li><a href="<?php echo URL?>precongreso">pre-congreso</a></li>
                     <li><a href="<?php echo URL?>congreso_m">congreso </a></li>
+=======
+                    <li><a href="<?php echo URL?>precongreso">precongreso</a></li>
+                    <li><a href="<?php echo URL?>habitaciones">congreso </a></li>
+>>>>>>> 08ab7342183011b6ccfd68623f6f623d1c7da4a3
             </div>
         </nav>
         <main class="container">

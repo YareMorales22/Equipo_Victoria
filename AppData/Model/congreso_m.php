@@ -1,15 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Mutsorini
- * Date: 08/05/2018
- * Time: 02:30 PM
- */
 
     namespace AppData\Model;
-
-
-class Habitaciones
+class congreso_m
 {
      private $tabla="congresomedico";
 
@@ -18,7 +10,6 @@ class Habitaciones
      {
          $this->conexion=new conexion();
      }
-
     public function set($atributo,$valor)
     {
         $this->$atributo=$valor;
@@ -31,8 +22,7 @@ class Habitaciones
 
     function add()
     {
-        $sql="insert into {$this->tabla} values()";
-        $this->conexion->QuerySimple($sql);
+
     }
 
     function getAll()
@@ -44,17 +34,16 @@ class Habitaciones
 
     function delete($id)
     {
-        $sql="delete from {$this->tabla} where id_='{$id}'";
+        $sql="delete from {$this->tabla} where id_congresomedico='{$id}'";
         $this->conexion->QuerySimple($sql);
     }
     function getOne($id)
     {
-        $sql="select * from  {$this->tabla} where id_habitacion='{$id}'";
+        $sql="select * from  {$this->tabla} where id_congresomedico='{$id}'";
         $datos=$this->conexion->QueryResultado($sql);
         return $datos;
     }
     function update(){
-         $sql="";
-        $this->conexion->QuerySimple($sql);
+
     }
 }
